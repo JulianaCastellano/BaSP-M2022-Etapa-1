@@ -1,20 +1,19 @@
-# Semana 02 - HTML
+# Week 03 - CSS
 ```
-La problemática de la semana 02 consiste en crear un documento HTML que posea el mismo contenido que la landing del screenflow
+The problem of week 03 consists of including the styles corresponding to the HTML structure of week 02 in order to achieve that when visualizing the page.
 ```
 ## _Landing Page_
-Es una pantalla principal en la que se explica cuales son las características del sistema.
+It is a main screen where the system features are explained.
 
-Ésta contiene diferentes secciones:
+It contains different sections:
 
-
-- Titulo Principal, Subtitulo y Descripción (Header).
+- Main Title, Subtitle and Description (Header).
 - Sidebar. 
-- Una sección que presente las diferentes funcionalidades.
-- Una sección que presente razones de porqué utilizarlo.
-- Formulario.
-- Historia de la empresa.
-- Sección final con elementos listados.
+- A section presenting the different functionalities.
+- A section presenting reasons why to use it.
+- Form.
+- History of the company.
+- Final section with items listed.
 - Footer
 
 Castellano Juliana 
