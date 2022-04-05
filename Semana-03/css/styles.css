@@ -167,7 +167,6 @@ margin-top: 13%;
 font-size: 65px;
 font-weight: bold;
 color: rgb(55, 56, 103);
-    margin-bottom:1%;
 text-shadow: 2px 2px 4px #373867;
 }
 .history img{
@@ -179,9 +178,9 @@ text-shadow: 2px 2px 4px #373867;
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(55, 56, 103);
-    top: 127%;
-    margin-left: 25%;
-    margin-right: 8%;
+    top: 126%;
+    margin-left: 23%;
+    margin-right: 7%;
     line-height: 25px;
 }
 
@@ -190,7 +189,7 @@ text-shadow: 2px 2px 4px #373867;
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(55, 56, 103);
-    top: 159%;
+    top: 156%;
     margin-left: 20%;
     margin-right: 8%;
     line-height: 25px;
@@ -205,8 +204,108 @@ text-shadow: 2px 2px 4px #373867;
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(55, 56, 103);
-    top: 167%;
+    top: 164%;
     margin-left: 20%;
     margin-right: 28%;
     line-height: 25px;
+}
+
+.function{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: rgb(55, 56, 103);
+        margin-top:6%;
+        margin-left: 20%;
+    text-shadow: 2px 2px 4px #373867;
+}
+.recordimg{
+    margin-left: 20%;
+    margin-top: 7%;
+}
+.record h3{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: rgb(55, 56, 103);
+    margin-left: 35%;
+    top: 244%;
+}
+.record p{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: rgb(55, 56, 103);
+    margin-left: 35%;
+    margin-right: 50%;
+    top: 248%;
+    line-height: 22px;
+}
+.resoimg{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.reso h3{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: rgb(55, 56, 103);
+    margin-left: 35%;
+    top: 275%;
+}
+.reso p{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: rgb(55, 56, 103);
+    margin-left: 35%;
+    margin-right: 50%;
+    top: 279%;
+    line-height: 22px;
+}
+.reportsimg{
+    position: absolute;
+    margin-left: 60%;
+    top:244%;
+}
+.reports h3{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: rgb(55, 56, 103);
+    margin-left: 75%;
+    top: 244%;
+}
+.reports p{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: rgb(55, 56, 103);
+    margin-left: 75%;
+    margin-right: 10%;
+    top: 248%;
+    line-height: 22px;
+}
+.rolsimg{
+    position: absolute;
+    margin-left: 60%;
+    top: 275%;
+}
+.rols h3{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: rgb(55, 56, 103);
+    margin-left: 75%;
+    top: 275%;
+}
+.rols p{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: rgb(55, 56, 103);
+    margin-left: 75%;
+    margin-right: 10%;
+    top: 279%;
+    line-height: 22px;
 }
