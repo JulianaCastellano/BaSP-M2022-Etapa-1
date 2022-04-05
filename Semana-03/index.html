@@ -263,27 +263,34 @@
         </div>
 
         <!--FORMS-->
-        <h2>Request Information:</h2>
+        <div class="inform">
+            <h2>Request Information:</h2>
+        </div>
+        <div class="linep">
+        </div>
         <form action="process.php" method="POST">
-            <div>
             <input type="text" name="firstname" placeholder="Name">
-            <input type="text" name="email" placeholder="Email">
-            <button>Send me a copy</button>
+            <input type="email" name="email" placeholder="Email">
+            <div class="email-checkbox">
+                <input name="checkbox-1" type="checkbox">
+                <label for="checkbox-1">Send me a copy</label>
             </div>
             <div>
                 <label>Category</label>
                 <select name="category">
-                    <option value="Human Resources">Human Resources</option>
-                    <option value="Systems">Systems</option>
-                    <option value="Comercialization">Comercialization</option>
+                    <option value="disabled" disabled selected>Category</option>
+                    <option value="value1">Human Resources</option>
+                    <option value="value2">Systems</option>
+                    <option value="value3">Comercialization</option>
                 </select>
             </div>
-            <div>
-            <input type="text" name="enter your message" placeholder="Enter your message">
-            <button>I am a human</button>
+            <textarea placeholder="Enter your message"></textarea>
+            <div class="human-checkbox">
+                <input name="checkbox-2" type="checkbox">
+                <label for="checkbox-2">I'm a human</label>
             </div>
-            <div>
-            <button>Send Message</button>
+            <div class="send-bottom">
+                <a href="https://www.menu.com/">Send Message</a>
             </div>
         </form>
         <footer>
