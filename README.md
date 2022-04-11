@@ -1,6 +1,6 @@
-# Week 03 - CSS
+# Week 04 - FLEXBOX
 ```
-The problem of week 03 consists of including the styles corresponding to the HTML structure of week 02 in order to achieve that when visualizing the page.
+The problem of week 04 consists in replicating the landing page of the screenflow of week 01 using Flexbox as the main tool for the creation of a Responsive Design following the concept of Mobile First
 ```
 ## _Landing Page_
 It is a main screen where the system features are explained.
