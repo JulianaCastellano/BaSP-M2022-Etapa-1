@@ -6,64 +6,11 @@
     padding-top: 110px;
     justify-content: space-around;
 }
-@media screen and (min-width: 768px){
-    .firts-page{
-        display: flex;
-        margin-left: 20%;
-        
-    }
-    .content{
-        width: 50%;
-
-    }
-    .history{
-        display: flex;
-        margin-left: 20%;
-    }
-    .first-p{
-        width: 70%;
-    }
-    .second-p{
-        width: 70%;
-    }
-    .second-p h3{
-        margin-top: 25px;
-    }
-    .function{
-        display: flex;
-        margin-left: 20%;
-    }
-    .record, .reso, .reports, .rols{
-        width: 40%;
-    }
-    .record-leters, .reso-leters, .reports-leters, .rols-leters{
-        width: 50%;
-    }
-    .reasons{
-        display: flex;
-        margin-left: 20%;
-    }
-    .product, .work, .decision, .leader{
-        width: 40%;
-    }
-    .product-leters, .work-leters, .decision-leters, .leader-leters{
-        width: 50%;
-    }
-                   
-}
-@media screen and (min-width: 1260px){
-    .first-p{
-        width: 60%;
-    }
-    .second-p{
-        width: 60%;
-    }
-}
 .firts-page img{
     display: flex;
 }
 .content h2{
-    font-size: 27px;
+    font-size: 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(55, 56, 103);
     line-height: 20px;
@@ -263,6 +210,7 @@
     justify-content: center;
     width: 100%;
     margin: 5% 0 2% 0;
+    text-align: center;
 
 }
 .reasons h3{
@@ -295,4 +243,141 @@
 .reasons img{
     width: 40%;
     height: auto;
+}
+.recuest-start{
+    display: flex;
+    justify-content: space-around;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+.recuest-start h2{
+    border-top: #F11A41 2px solid;
+    border-bottom: #F11A41 2px solid;
+    padding: 10px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+form [type="text"]{
+    display: flex;
+    margin-top: 6%;
+    width: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    background-color: #F6F3F3;
+}
+form .category{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    width: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    }
+form [type="textarea"]{
+    display: flex;
+    margin-top: 6%;
+    width: 80%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 2%;
+    padding-bottom: 80%;
+    border-radius: 8px;
+    background-color: #F6F3F3;
+
+}
+form .robot-checkbox{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    margin-top: 15px;
+}
+form .send-bottom{
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: rgb(55, 56, 103);
+    border: 2px solid #373867;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 4px 7px 4px 7px;  
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+}
+select{ 
+    width: 100% 
+}
+
+
+
+@media screen and (min-width: 768px){
+    .firts-page{
+        display: flex;
+        margin-left: 20%;
+        
+    }
+    .content{
+        width: 50%;
+
+    }
+    .history{
+        display: flex;
+        margin-left: 20%;
+    }
+    .first-p{
+        width: 50%;
+    }
+    .second-p{
+        width: 50%;
+    }
+    .second-p h3{
+        margin-top: 25px;
+    }
+    .function{
+        display: flex;
+        margin-left: 20%;
+    }
+    .record, .reso, .reports, .rols{
+        width: 40%;
+    }
+    .record-leters, .reso-leters, .reports-leters, .rols-leters{
+        width: 50%;
+    }
+    .reasons{
+        display: flex;
+        margin-left: 20%;
+    }
+    .product, .work, .decision, .leader{
+        width: 40%;
+    }
+    .product-leters, .work-leters, .decision-leters, .leader-leters{
+        width: 50%;
+    }
+    .recuest-start{
+        display: flex;
+        margin-left: 20%;
+    }
+    form{
+        display: flex;
+        margin-left: 20%;
+    }
+    form .robot-checkbox{
+        margin-left: 9%;
+    }
+    form input[type="text"]{
+        width: 30%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    form [type="textarea"]{
+        padding-bottom: 10%;
+    }
+                 
 }

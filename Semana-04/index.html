@@ -226,34 +226,27 @@
         </div>
 
         <!--FORMS-->
-        <div class="inform">
+        <div class="recuest-start">
             <h2>Request Information:</h2>
         </div>
-        <div class="linep">
-        </div>
-        <form action="process.php" method="POST">
+        <form>
             <input type="text" name="firstname" placeholder="Name">
-            <input type="email" name="email" placeholder="Email">
-            <div class="email-checkbox">
-                <input name="checkbox-1" type="checkbox">
-                <label for="checkbox-1">Send me a copy</label>
-            </div>
-            <div>
-                <label>Category</label>
-                <select name="category">
+            <input type="text" name="email" placeholder="Email">
+            <div class="category">
+                <select>
                     <option value="disabled" disabled selected>Category</option>
                     <option value="value1">Human Resources</option>
                     <option value="value2">Systems</option>
                     <option value="value3">Comercialization</option>
                 </select>
             </div>
-            <textarea placeholder="Enter your message"></textarea>
-            <div class="human-checkbox">
+            <textarea type="textarea" placeholder="Enter your message"></textarea>
+            <div class="robot-checkbox">
                 <input name="checkbox-2" type="checkbox">
-                <label for="checkbox-2">I'm a human</label>
+                <label for="checkbox-2">I'm not a robot</label>
             </div>
             <div class="send-bottom">
-                <input type="submit" value="Send Message">
+                <a href="https://www.menu.com/">Send Message</a>
             </div>
         </form>
             <div class="list1">
