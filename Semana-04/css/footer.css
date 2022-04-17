@@ -1,18 +1,22 @@
 .botton-pages{
     display: none;
 }
+
 footer{
     background-color: #ededed;
     display: flex;
     flex-direction: column;
 }
+
 .links2{
     display: flex;
     justify-content: center;
 }
+
 .links2 li{
     margin: 7% 10px 0 10px;
 }
+
 footer p{
     display: flex;
     justify-content: center;
