@@ -25,4 +25,5 @@ It contains different sections:
 - Footer
 
 Castellano Juliana 
-Link to web: https://julianacastellano.github.io/BaSP-M2022-Etapa-1/Semana-04/
+https://julianacastellano.github.io/BaSP-M2022-Etapa-1/Semana-04/index.html
+https://julianacastellano.github.io/BaSP-M2022-Etapa-1/Semana-05/indexjs.html
